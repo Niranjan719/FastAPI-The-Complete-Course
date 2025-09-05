@@ -11,4 +11,4 @@ class Enemy:
         print(f"{self.type_of_enemy} moves closer to you")
 
     def attack(self):
-        print(f"{self.type_of_enemy} attacks for {self.attack_damage} damage")  
+        print(f"{self.type_of_enemy} attacks for {self.attack_damage} damage")

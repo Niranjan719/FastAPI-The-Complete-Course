@@ -22,8 +22,8 @@ my_vehicle = {
 }
 
 
-for x, y in my_vehicle.items():
-    print(x, y)
+# for x, y in my_vehicle.items():
+#     print(x, y)
 
 
 vehicle2 = my_vehicle.copy()
@@ -35,7 +35,7 @@ vehicle2["number_of_tires"] = 4
 vehicle2.pop("mileage")
 
 
-for i in vehicle2:
+for i in vehicle2.values():
     print(i)
 
 

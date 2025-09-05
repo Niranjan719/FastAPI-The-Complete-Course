@@ -2,8 +2,14 @@ from Enemy import *
 
 zombie = Enemy()
 
-#zombie.type_of_enemy = 'Zombie'
+hulk = Enemy()
+
+hulk.type_of_enemy = 'Hulk'
+zombie.type_of_enemy = 'Zombie'
 print(f'{zombie.type_of_enemy} has {zombie.health_points} health points and can do attack of {zombie.attack_damage}')
+
+hulk.talk()
+
 
 zombie.talk()
 zombie.walk_forward()

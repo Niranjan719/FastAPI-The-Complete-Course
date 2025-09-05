@@ -1,5 +1,4 @@
 class Enemy:
-
     '''
     Goal: Show Encapsulation
     - Display Zombie walking, speaking and attacking.
@@ -9,7 +8,7 @@ class Enemy:
     - Create a new Enemy Ogre who needs more attack than the Zombie
     '''
 
-    def __init__(self, type_of_enemy, health_points = 10, attack_damage = 1):
+    def __init__(self, type_of_enemy, health_points, attack_damage):
         self.__type_of_enemy = type_of_enemy
         self.health_points = health_points
         self.attack_damage = attack_damage
@@ -21,7 +20,8 @@ class Enemy:
         print(f"{self.__type_of_enemy} moves closer to you")
 
     def attack(self):
-        print(f"{self.__type_of_enemy} attacks for {self.attack_damage} damage")  
+        print(f"{self.__type_of_enemy} attacks for {self.attack_damage} damage")
 
     def get_type_of_enemy(self):
         return self.__type_of_enemy
+

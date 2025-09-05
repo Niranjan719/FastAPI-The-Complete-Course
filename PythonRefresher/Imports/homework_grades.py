@@ -1,4 +1,4 @@
-import Imports.grade_average_service as grade_service
+from PythonRefresher.Imports import grade_average_service
 
 homework_assignment_grades = {
     'homework_1': 85,
@@ -7,7 +7,7 @@ homework_assignment_grades = {
 }
 
 
-grade_service.calculate_homework(homework_assignment_grades)
+grade_average_service.calculate_homework(homework_assignment_grades)
 
 
 

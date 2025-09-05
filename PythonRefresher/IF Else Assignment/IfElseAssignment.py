@@ -17,7 +17,7 @@ F = 0 - 59
 '''
 
 
-grade = 27
+grade = 85
 if grade >= 90:
     print("A")
 elif 80 <= grade < 90:
